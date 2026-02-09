@@ -1,3 +1,14 @@
+---
+license: apache-2.0
+title: Database AI Agent
+sdk: streamlit
+emoji: 📊
+colorFrom: indigo
+colorTo: purple
+short_description: 'Natural language to SQL query generation  '
+---
+
+
 # Database AI Agent
 
 AI-driven application that enables natural language interaction with SQL databases.  
@@ -24,5 +35,6 @@ The application is designed for database exploration, analytics, and educational
 
 
  
+
 
 
