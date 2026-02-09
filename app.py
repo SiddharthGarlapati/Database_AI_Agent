@@ -12,6 +12,8 @@ import os
 from dotenv import load_dotenv
 import base64
 
+
+
 load_dotenv()
 
 st.set_page_config(
@@ -21,8 +23,8 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-ICON_DIR = Path(__file__).parent / "icons" / "icon.png"
-icon_b64 = base64.b64encode(ICON_DIR.read_bytes()).decode("utf-8")
+# ICON_DIR = Path(__file__).parent / "icons" / "icon.png"
+# icon_b64 = base64.b64encode(ICON_DIR.read_bytes()).decode("utf-8")
 
 st.markdown(
     f"""
@@ -36,7 +38,7 @@ st.markdown(
         margin-bottom: 1.5rem;
     ">
         <img 
-            src="data:image/png;base64,{icon_b64}"
+            src="https://raw.githubusercontent.com/SiddharthGarlapati/Database_AI_Agent_icon/c353f3ed81a55022c12be2a94daad07dc5d520b4/icon.png"
             style="
                 width: 160px;
                 max-width: none;
